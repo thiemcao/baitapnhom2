@@ -1,0 +1,66 @@
+.tour{
+    display: flex;
+    background-color: black;
+    height: 2000px;
+}
+.tour_register{
+    width: 30%;
+    height: 50%;
+}
+.tour_register_title{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.tour_register_para{
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+}
+.tour_item_title{
+    font-size: 25px;
+    color: white;
+}
+.tour_item_para{
+    font-size: 15px;
+    color: white;
+}
+.tour_item{
+    margin-top: 30px;
+}
+.view_all{
+    margin-top: 30px;
+    font-size: 20px;
+    background-color: black;
+    color:white;
+    border: white solid;
+}
+.vip_upgrade{
+     background-color: black;
+    color:white;
+    border: white solid;
+    width:30%;
+    padding: 5px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.button{
+    display: flex;
+    flex-direction: row;
+}
+
+@media (max-width: 509px) and (min-width: 360px){
+    .tour{
+        flex-direction: column;
+    }
+}
+@media (max-width: 720px) and (min-width: 510px){
+    .tour{
+        flex-direction: column;
+    }
+}
+
+
+

@@ -1,0 +1,456 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(http://kenh14cdn.com/thumb_w/650/2016/anh-1-1478321937650.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+}
+
+
+.container .card-left{
+    padding-top: 60px;
+    padding-left: 60px;
+    font-family:Arial;
+}
+
+.container .card-left .album-cten-wrapper{
+    padding-bottom: 30px;
+}
+
+.container .card-left .album-cten-wrapper img{
+    width: 40%;
+    height: 220px;
+    padding-left: 15px;
+}
+
+.container .card-left .album-cten-wrapper button{
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.container .card-left .album-cten-wrapper button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+
+.container .card-gif{
+    padding-bottom: 15px;
+}
+.container .card-gif img{
+    width: 40%;
+    height: 220px;
+}
+
+.container .card-left .merch-header-wrapper img{
+    width: 40%;
+    height: 220px;
+    padding-left: 15px;
+}
+
+.text-album-boxset{
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+}
+
+.container .card-left .merch-header-wrapper button{
+    width: 220px;
+    height: 40px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 16px;
+}
+
+.container .card-left .merch-header-wrapper button:hover{
+    background-color: white;
+    color: black;
+    transition: 0.6s;
+}
+
+.container .card-right{
+    position: fixed;
+    top: 60px;
+    right: 50px;
+}
+
+.container .card-right:hover{
+ cursor: pointer;
+}
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    background: black;
+    color: white;
+    /* width: 100%; */
+    height: 140px;
+    align-items: center;
+}
+
+.container2 .phone-number{
+    font-size: 26px;
+    margin-left: 18px;
+}
+
+.container2 .socials ul img{
+    width: 26px;
+    height: 26px;
+    align-content: center;
+}
+
+.container2 .socials{
+    display: flex; 
+    gap: 14px;
+}
+
+.container2 .email{
+    padding-right: 50px;
+    justify-items: center;
+    position: relative;
+}
+
+.container2 .email .text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container2 .email .email-text{ 
+    margin-top: 10px;
+}
+
+.container2 .email label{
+    text-decoration: underline;
+}
+
+.container3 {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.893);
+    /* width: 100%; */
+}
+
+.container3 .container3-left .video1{
+    width: 100%;
+    height: 50%;
+}
+
+.container3 .container3-left .video2{
+    padding-bottom: 140px;
+    width: 100%;
+    height: 50%;
+}
+
+.container3 .container3-right{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container3 .container3-right .images{
+    width: 380px;
+}
+
+.container3 .container3-right img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-tour{
+    /* width: 100%; */
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+}
+
+.container-tour .message .message-description{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+.container-tour .tour-text .block-Title{
+    padding-top: 16px;
+    font-size: 26px;
+    padding-bottom: 20px;
+}
+
+.container-tour .tour-text .desc .desc-text{
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+.container-tour .tour-right .mlform-twostep {
+    display: flex;
+    margin-top: 60px;
+    align-items: center;
+}
+
+.container-tour .tour-right .mlform-twostep .input-updates input{
+    width: 260px;
+    height: 30px;
+}
+
+.container-tour .tour-right .mlform-twostep .join{
+    font-size: 24px;
+}
+
+.container-tour .tour-left .widget_row {
+    color: white;
+    margin-top: 40px;
+}
+
+.container-tour .tour-left .widget_row .event-date{
+    font-size: 20px;
+    margin-top: 40px;
+}
+.container-tour .tour-left .widget_row .venue-plain-text{
+    font-size: 22px;
+    margin-top: 6px;
+}
+.container-tour .tour-left .widget_row .location-plain-text{
+    font-size: 30px;
+    margin-top: 6px;
+}
+
+.container-tour .tour-left .widget_row button{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    width: 220px;
+    height: 40px;
+    /* font-size: 20px; */
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.container-tour .tour-left .widget_row button:hover{
+    background-color:white;
+    color: black;
+    transition: 0.6s;
+}
+
+.container-tour .tour-left .tour-view{
+    margin-top: 60px;
+    width: 100%;
+}
+
+.container-tour .tour-left .tour-view .btn-tour-view{
+    background-color: white;
+    color: black;
+    width: 50%;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.container-tour .tour-left .tour-view .btn-tour-view:hover{
+    background-color:black;
+    color: white;
+    transition: 0.6s;
+}
+
+.container-music{
+    /* width: 100%; */
+    background-color: black;
+    display: flex;
+    /* min-height: 100vh; */
+}
+
+.container-music .video-left{
+    padding-top: 140px;
+}
+
+.container-music .video-left .video{
+    margin-bottom: 60px;
+}
+
+.container-music .music-right{
+    margin-top: 60px;
+}
+
+.container-music .music-right .button-music-video{
+   display: flex;
+   justify-content: center;
+}
+
+.container-music .music-right .btn-music-video .btn-tour-view{
+    margin-top: 60px;
+    width: 260px;
+    height: 50px;
+    text-align: center;
+    background-color:white;
+    color: black;
+    cursor: pointer;
+    overflow: hidden;
+    font-size: 20px;
+}
+
+.container-music .music-right .button-music-video .btn-music-video .btn-tour-view:hover{
+    cursor: pointer;
+    overflow: hidden;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    transition: 0.6s;
+}
+
+.container-merch{
+    background-color: black;
+    width: 100%;
+    height: 700px;
+}
+
+.container-merch .gif{
+    padding-left: 150px;
+}
+
+.container-merch .album1{
+    position: relative;
+    top: 100px;
+    padding-left: 50px;
+}
+
+.container-merch .album2{
+    position: relative;
+    top: 380px;
+    padding-left: 80px;
+}
+.container-merch .album3{
+    position: relative;
+    top: 100px;
+    padding-left: 400px;
+}
+
+
+.container-end{
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.container-end .icon{
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+}
+.container-end .icon-2{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    gap: 12px;
+}
+
+.container-end .icon-2 .icon-text{
+    cursor: pointer;
+    overflow: hidden;
+}
+
+
+@media (max-width: 765px) and (min-width: 720px){
+
+    .container2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+
+    .container2 .socials{
+        gap: 40px;
+    }
+
+    .container2 .email{
+        display: none;
+    }
+
+    .container3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container3 .container3-right{
+        display: flex;
+        flex-direction: column;
+    }
+    .container3 .container3-right .images{
+        width: 100% ;
+    }
+
+    .container-music{
+        flex-direction: column;
+
+    }
+
+    .container-tour{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    
+    .container-music .music-right .btn-music-video .btn-tour-view{
+        width: 100%;
+    }
+
+    .container3 .container3-left .video1{
+        width: 100%;
+        height: 100%;
+    }
+    .container3 .container3-left .video2{
+        width: 100%;
+        height: 100%;
+    }
+
+    .container-end .icon-2{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .container-tour .tour-right{
+        text-align: center;
+    }
+    .container-tour .tour-left{
+        text-align: center;
+    }
+
+
+    }
+
+
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
